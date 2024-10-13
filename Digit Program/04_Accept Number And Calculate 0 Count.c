@@ -10,7 +10,7 @@ int main()
     for(Temp = No; Temp > 0; Temp /= 10)
     {
         Dig = Temp%10;
-        if((Dig%2)== 0 )
+        if((Dig%2)== 0)
         {
             zcnt++;
         }
