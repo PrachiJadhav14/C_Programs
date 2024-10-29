@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<conio.h>
+
 
 int areaofRect(int length,int breadth)
   {
