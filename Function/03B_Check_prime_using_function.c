@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -8,7 +7,7 @@ int main()
     printf("\n Enter a Postive Number = ");
     scanf("%d",&No);
 
-    Ret=is_prime(No);
+    Ret = is_prime(No);
 
     if(Ret==1)
     {
