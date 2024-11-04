@@ -1,8 +1,7 @@
-
-    #include<stdio.h>
-    #include<conio.h>
-    #include<string.h>
-    int main()
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
     {
             struct student
             {
@@ -30,7 +29,6 @@
                  scanf("%f",&std[i].Per);
             }
             getch();
-
 
                 for( i=1 ; i<=3 ;i++)
                 {
