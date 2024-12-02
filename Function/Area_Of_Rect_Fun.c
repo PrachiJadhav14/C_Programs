@@ -1,20 +1,45 @@
 #include<stdio.h>
 #include<conio.h>
 
+typedef int Bool;
+#define True 1
+#define False 0
 
-int areaofRect(int length,int breadth)
+Bool is_prime(int);
+
+  int main()
   {
-      int area;
-      area=length * breadth;
-      return area;
-  }
-   int  main()
-   {
-       int l=10,b=5;
-       int area=areaofRect(1,b);
-       printf("%d\n",area);
+     int No =0;
+     Bool BRet=False;
 
-       l=20,b=5;
-       area=areaofRect(l,b);
-       printf("%d\n",area);
-   }
+     printf("\n Enter a Positive Number =");
+     scanf("%d",&No);
+
+     BRet=is_prime(No);
+
+     if(BRet==True)
+     {
+         printf("\n Given %d is prime.",No);
+     }
+     else
+     {
+         printf("\n Given %d is Not prime.",No);
+     }
+
+     getch();
+     return 0;
+  }
+    Bool is_prime(int Num)
+    {
+        int i=0;
+
+        for(i=2; i< Num;i++)
+
+        {
+          if(Num % i == 0)
+          {
+            return False;
+          }
+        }
+        return True;
+    }
