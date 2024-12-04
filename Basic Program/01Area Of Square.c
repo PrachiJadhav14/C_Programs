@@ -1,4 +1,5 @@
 ///Area Of Square
+
 #include<stdio.h>
 #include<conio.h>
 int mian()
