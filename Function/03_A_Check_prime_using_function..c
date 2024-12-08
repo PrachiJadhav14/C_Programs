@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-
 typedef int Bool;
 #define True 1
 #define False 0
