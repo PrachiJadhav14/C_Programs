@@ -4,6 +4,7 @@
 
 int main()
 {
+
  int Values[5] ={10,22,0,7,-5};
 
  printf("\n Value Of 1st Element = %d",Values[0]);
