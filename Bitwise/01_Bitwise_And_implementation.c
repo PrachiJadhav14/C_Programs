@@ -1,7 +1,6 @@
 //Bitwise Program
 #include<stdio.h>
 #include<conio.h>
-
 int main()
 {
     int No1 = 0, No2 = 0, Res = 0;
