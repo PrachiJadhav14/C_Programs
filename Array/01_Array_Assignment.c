@@ -1,4 +1,5 @@
 ///Crate Array With Initialzation And Display All Element
+
 #include<stdio.h>
 #include<conio.h>
 int main()
