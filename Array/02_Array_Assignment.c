@@ -1,4 +1,3 @@
-
 ///Program To Creat Array Of 7 Element With (0) Initialization And Display All Element
 #include <stdio.h>
 #include<stdio.h>
