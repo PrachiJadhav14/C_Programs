@@ -1,7 +1,6 @@
 ///Program To Display Hallow
 #include<stdio.h>
 #include<conio.h>
-
 int main()
 {
   int r = 0, c = 0, i = 0, j = 0;
