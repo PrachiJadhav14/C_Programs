@@ -10,13 +10,13 @@ int Add (int x,int y)
 int main()
 {
     int N1=0,N2=0,Res=0;
-    printf("\n Enter No1=");
+    printf("\n Enter No1 => ");
     scanf("%d",&N1);
-    printf("\n Enter No2");
+    printf("\n Enter No2 => ");
     scanf("%d",&N2);
 
     Res=Add(N1,N2);
-    printf("\n Addition Of %d&%d is %d.",N1,N2,Res);
+    printf("\n Addition Of %d & %d is %d.",N1,N2,Res);
 
     printf("\n Thanks");
 
