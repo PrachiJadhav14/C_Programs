@@ -3,6 +3,7 @@
 #include<stdio.h>
 #include<stdio.h>
 int main ()
+
 {
   int R = 0,C = 0, X = 0;
   char i = 'A';
