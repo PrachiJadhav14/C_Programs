@@ -10,6 +10,7 @@
       printHello();
        printGoodBye();
     return 0;
+
   }
    void printHello()        //Function Defination
    {
