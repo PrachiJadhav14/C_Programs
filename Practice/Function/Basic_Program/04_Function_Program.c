@@ -8,10 +8,8 @@ int main(){                //function Call
         printf("\n Enter You Are  Girl Or  Boy => ");
         char ch;
         scanf("%c",&ch);
-
-        Boy();
+         Girl();
 }
-
 void Girl(){    //Function Defination
     printf("Hiii Same Here , I Am Girl \n");
        Boy();
