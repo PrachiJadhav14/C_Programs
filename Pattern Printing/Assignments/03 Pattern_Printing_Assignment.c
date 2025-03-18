@@ -1,5 +1,4 @@
 ///Program to print left lower pattern using alphabets .
-
 #include<stdio.h>
 #include<stdio.h>
 int main ()
