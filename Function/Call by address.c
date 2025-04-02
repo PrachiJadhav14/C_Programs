@@ -3,7 +3,7 @@
 
 void find_Max(int*,int*,int*);
 
-int main()
+ int main()
 {
     int N1 = 0, N2 = 0, Max = 0;
 
