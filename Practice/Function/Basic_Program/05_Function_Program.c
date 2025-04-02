@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-  int sum (int a , int b);
+  int sum (int a , int b);            //Declaration
 
   int main()
     {
@@ -12,12 +12,12 @@
         printf("\n Enter Second Number => ");
         scanf("%d",&b);
 
-        int s = sum (a,b);
+        int s = sum (a,b);                      //function Calling
         printf("Sum is : %d", s);
         return 0;
     }
 
-    int sum (int x,int y)
+    int sum (int x,int y)                       ///Function Defination
     {
         return x + y;
     }
