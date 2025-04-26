@@ -26,7 +26,7 @@
     int Choice = 0;
     char ch = '\0';
 
-    for(;;)
+    for(;)
     {
       printf("\n ******************Fork Infosytem***************\n\t ARITHEMATIC CALCULATION");
       printf("\n==================================================================================\n");
