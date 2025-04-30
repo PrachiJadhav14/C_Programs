@@ -3,6 +3,7 @@
 #include<string.h>
 int main()
     {
+
             struct student
             {
                 int Rollno;
