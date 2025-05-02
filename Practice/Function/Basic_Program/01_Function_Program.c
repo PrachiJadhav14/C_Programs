@@ -1,7 +1,6 @@
 #include<stdio.h>
-#include<conio.h>\
-
-  void printHello(); ///Function Declaration / Prototype
+#include<conio.h>
+void printHello(); ///Function Declaration / Prototype
 
   int main()
     {
