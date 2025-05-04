@@ -2,8 +2,7 @@
 #include<conio.h>
 int main()
 {
-
-    int Cnt = 0, i = 0, Bill_Sum = 0;
+     int Cnt = 0, i = 0, Bill_Sum = 0;
     int *Bills = NULL;
 
     printf("\n Enter  How Many Bills : ");
