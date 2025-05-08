@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <conio.h>
-
 int main()
 {
-
-
-     char cArr[20]={'K','A','R','A','D'};                       ///char cArr[20] ="karad";
+    char cArr[20]={'K','A','R','A','D'};                       ///char cArr[20] ="karad";
 
      puts(cArr);
 
