@@ -1,5 +1,5 @@
 
-// COunt Capital Letters in Given String
+// Count Small Letters in Given String
 
 #include<stdio.h>
 #include<conio.h>
