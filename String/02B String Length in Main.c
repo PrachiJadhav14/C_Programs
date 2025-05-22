@@ -13,7 +13,7 @@ int main()
     {
         i++;
     }
-    printf("\n Length Of Given String is =%d",i);
+    printf("\n Length Of Given String is =%d",c_src);
 
     getch();
     return 0;
