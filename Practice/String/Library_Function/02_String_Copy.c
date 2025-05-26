@@ -3,8 +3,8 @@
 #include<string.h>
 int main()
 {
-    char FName[10] = {'\0'};
-    char LName[10] = {};
+    char FName[20] = {'\0'};
+    char LName[20] = {};
 
     printf("\n Enter a 1st Name : ");
     gets(FName);
