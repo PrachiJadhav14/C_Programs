@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-VowelCnt(cSrc[]);
+int VowelCnt(cSrc[]);
 
 int main()
 {
@@ -22,7 +22,7 @@ int main()
 
 }
 
- VowelCnt(char cSrc[])
+ int VowelCnt(char cSrc[])
  {
      while(cSrc[i] != '\0')
      {
