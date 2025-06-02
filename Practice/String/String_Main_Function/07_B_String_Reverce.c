@@ -2,7 +2,7 @@
 #include<conio.h>
 
 int StrlenF(char *);
-void StrRevF(char *);
+int StrRevF(char *);
 
 int main()
 {
@@ -31,7 +31,7 @@ int StrlenF(char *Src)
     return Cnt;
 }
 
-void StrRevF(char *Str)
+int StrRevF(char *Str)
 {
     char ch = '\0';
     char *Temp = Str + StrlenF(Str)-1;
